@@ -1,9 +1,9 @@
 {
   "name": "@keyless/core",
-  "version": "1.0.0",
-  "description": "",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {},
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
 }

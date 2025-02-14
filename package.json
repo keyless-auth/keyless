@@ -5,5 +5,9 @@
   "scripts": {},
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "turbo": "^2.4.2"
+  },
+  "packageManager": "pnpm@10.4.0"
 }
