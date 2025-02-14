@@ -2,6 +2,10 @@
   "name": "@keyless/core",
   "module": "src/index.ts",
   "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "pnpm build && node dist/index.js --watch"
+  },
   "devDependencies": {},
   "peerDependencies": {
     "typescript": "^5.0.0"

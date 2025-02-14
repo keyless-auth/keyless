@@ -2,7 +2,11 @@
   "name": "keyless",
   "version": "0.0.1",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "check-types": "turbo check-types"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
