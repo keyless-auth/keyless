@@ -1,0 +1,6 @@
+{
+  "name": "@keyless/crypto",
+  "scripts": {
+    "build": "RUSTFLAGS='--cfg getrandom_backend=\"js\"' wasm-pack build --target web --out-dir ../keyless/core/wasm --out-name keyless_crypto"
+  }
+}
