@@ -1,5 +1,6 @@
-const main = () => {
-  console.log('Hello via Keyless core!');
-};
-
-main();
+export * from './pepper/PepperService';
+export * from './chain/ChainAdapter';
+export * from './auth/AuthProvider';
+export * from './crypto/ZKVerifier';
+export * from './types/index';
+export * from './errors';

@@ -6,8 +6,10 @@
     "build": "tsc",
     "dev": "pnpm build && node dist/index.js --watch"
   },
-  "devDependencies": {},
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@total-typescript/tsconfig": "^1.0.4"
   }
 }
