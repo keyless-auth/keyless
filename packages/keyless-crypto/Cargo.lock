@@ -662,7 +662,7 @@ checksum = "b90ca2580b73ab6a1f724b76ca11ab632df820fd6040c336200d2c1df7b3c82c"
 [[package]]
 name = "expander_compiler"
 version = "0.1.0"
-source = "git+https://github.com/akuya-ekorot/ExpanderCompilerCollection?branch=master#9f980590ca60f6af3ed0507ea39852f21d958318"
+source = "git+https://github.com/PolyhedraZK/ExpanderCompilerCollection?branch=master#1258ed350505ff679a7bca1620dda1b10ccb8f6a"
 dependencies = [
  "arith",
  "ark-std",
